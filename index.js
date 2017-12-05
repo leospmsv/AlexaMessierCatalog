@@ -15,6 +15,9 @@ const languageStrings = {
     }
 };
 
+//--------------------------------------------------
+// Logic
+//--------------------------------------------------
 exports.handler = function(event, context, callback) {
     var alexa = Alexa.handler(event, context);
     alexa.APP_ID = APP_ID;
